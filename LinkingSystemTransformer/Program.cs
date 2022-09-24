@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using System.Xml.Serialization;
 using DoenaSoft.DVDProfiler.DVDProfilerHelper;
 using DoenaSoft.DVDProfiler.DVDProfilerXML;
-using DoenaSoft.DVDProfiler.DVDProfilerXML.Version360;
+using DoenaSoft.DVDProfiler.DVDProfilerXML.Version400;
 
 namespace LinkingSystemTransformer
 {

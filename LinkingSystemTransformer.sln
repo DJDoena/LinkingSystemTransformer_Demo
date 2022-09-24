@@ -1,15 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkingSystemTransformer", "LinkingSystemTransformer\LinkingSystemTransformer.csproj", "{E3374396-9322-4A1D-8119-711A593FBD5D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Libraries", "_Libraries", "{6BCD4378-437B-4661-B7A0-8666562CF14E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDProfilerHelper", "DVDProfilerXML\DVDProfilerHelper\DVDProfilerHelper\DVDProfilerHelper.csproj", "{461DACCA-8EBF-4C03-AD1A-C438E4EB3B36}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDProfilerXML", "DVDProfilerXML\DVDProfilerXML\DVDProfilerXML.csproj", "{2E90CC6F-892E-45B3-8812-EE52FFA3B222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,16 +12,11 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E3374396-9322-4A1D-8119-711A593FBD5D}.Debug|x86.ActiveCfg = Debug|x86
 		{E3374396-9322-4A1D-8119-711A593FBD5D}.Debug|x86.Build.0 = Debug|x86
-		{461DACCA-8EBF-4C03-AD1A-C438E4EB3B36}.Debug|x86.ActiveCfg = Debug|x86
-		{461DACCA-8EBF-4C03-AD1A-C438E4EB3B36}.Debug|x86.Build.0 = Debug|x86
-		{2E90CC6F-892E-45B3-8812-EE52FFA3B222}.Debug|x86.ActiveCfg = Debug|x86
-		{2E90CC6F-892E-45B3-8812-EE52FFA3B222}.Debug|x86.Build.0 = Debug|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{461DACCA-8EBF-4C03-AD1A-C438E4EB3B36} = {6BCD4378-437B-4661-B7A0-8666562CF14E}
-		{2E90CC6F-892E-45B3-8812-EE52FFA3B222} = {6BCD4378-437B-4661-B7A0-8666562CF14E}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E93BDEBE-9565-4681-89E3-CD60A46A7F73}
 	EndGlobalSection
 EndGlobal
